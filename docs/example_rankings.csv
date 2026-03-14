@@ -1,0 +1,7 @@
+rank,identity,path,similarity
+1,person_104,data/CUFS/test_photos/104.jpg,0.637244
+2,person_111,data/CUFS/test_photos/111.jpg,0.608064
+3,person_052,data/CUFS/train_photos/AR_52.jpg,0.598555
+4,person_024,data/CUFS/train_photos/AR_24.jpg,0.596726
+5,person_030,data/CUFS/test_photos/30.jpg,0.596272
+

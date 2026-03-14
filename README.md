@@ -121,11 +121,25 @@ python -m sketch_xai.infer `
   --output-dir outputs/cufs-demo
 ```
 
-Outputs:
+Outputs (generated locally under `outputs/` and not committed to git):
 
 - `rankings.csv` with top matches
 - `explanation_top1.png` showing the query sketch, top photo, and Grad-CAM overlays
 - `summary.json` with the match score and selected identity
+
+## Example Outputs (Included In Repo)
+
+The repository includes example artifacts under `docs/` so you can see what the system produces without downloading the dataset:
+
+- `docs/example_explanation.png` (example Grad-CAM-style visualization)
+- `docs/example_rankings.csv` (example top-k ranking format)
+- `docs/example_summary.json` (example JSON summary format)
+
+![Example Explanation](docs/example_explanation.png)
+
+## System Overview
+
+![Pipeline](docs/pipeline.png)
 
 ## References Used In The Project Brief
 

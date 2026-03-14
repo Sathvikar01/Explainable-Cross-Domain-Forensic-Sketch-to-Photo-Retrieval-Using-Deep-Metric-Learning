@@ -1,0 +1,8 @@
+{
+  "query_identity": "person_104",
+  "top_identity": "person_104",
+  "top_similarity": 0.6372436,
+  "rankings_csv": "outputs/cufs-demo/rankings.csv",
+  "explanation_image": "outputs/cufs-demo/explanation_top1.png"
+}
+
